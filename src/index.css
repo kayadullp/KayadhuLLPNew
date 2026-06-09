@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased transition-colors duration-300;
+  }
+  .dark body {
+    @apply bg-slate-900 text-slate-200;
+  }
+  
+  /* Hide default cursor on devices with a mouse to favor custom cursor */
+  @media (pointer: fine) {
+    body, a, button, input, textarea, select, .cursor-pointer {
+      cursor: none !important;
+    }
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16;
+  }
+}
