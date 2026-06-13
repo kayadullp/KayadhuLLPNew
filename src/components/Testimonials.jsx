@@ -9,7 +9,7 @@ function Testimonials() {
   const testimonials = [
 
     {
-      name: 'Rahul Sharma',
+      name: 'Ameen Batcha',
       company: 'TechNova Solutions',
       review:
         'Kayadhu Consultancy helped us streamline taxation and compliance processes with exceptional professionalism.',
@@ -17,7 +17,7 @@ function Testimonials() {
     },
 
     {
-      name: 'Priya Mehta',
+      name: 'Karan Patil',
       company: 'Mehta Enterprises',
       review:
         'Their financial advisory services gave our business better clarity and growth direction.',
@@ -25,7 +25,7 @@ function Testimonials() {
     },
 
     {
-      name: 'Amit Desai',
+      name: 'Preshit Bakre',
       company: 'Desai Infra',
       review:
         'Very reliable consultancy team. They simplified GST filings and compliance management for us.',
@@ -33,7 +33,7 @@ function Testimonials() {
     },
 
     {
-      name: 'Sneha Kulkarni',
+      name: 'Neshapriya Chettiar',
       company: 'SK Retail',
       review:
         'Professional support, transparent communication, and timely guidance throughout our business operations.',
