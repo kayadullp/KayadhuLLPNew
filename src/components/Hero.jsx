@@ -77,13 +77,12 @@ const Hero = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.5 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mt-20 max-w-4xl mx-auto"
+          className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mt-20 max-w-4xl mx-auto"
         >
           {[
             { label: 'Years Experience', value: '3+', icon: TrendingUp },
-            { label: 'Happy Clients', value: '500+', icon: Users },
-            { label: 'Projects Completed', value: '1K+', icon: ShieldCheck },
-            { label: 'Expert Partners', value: '50+', icon: Landmark },
+            { label: 'Businesses Served', value: '500+', icon: Users },
+            { label: 'Entity Formed', value: '1K+', icon: ShieldCheck }
           ].map((stat, i) => {
              const Icon = stat.icon || ShieldCheck;
              return (
