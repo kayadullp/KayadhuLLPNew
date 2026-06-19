@@ -57,8 +57,8 @@
     line-height: 1.5rem !important;
   }
 
-  .prose .group h3 .w-1.5,
-  .prose .group h4 .w-1.5 {
+  .prose .group h3 .w-1\.5,
+  .prose .group h4 .w-1\.5 {
     height: 1.25rem !important; /* h-5 */
   }
 
