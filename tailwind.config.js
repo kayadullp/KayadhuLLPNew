@@ -12,6 +12,9 @@ export default {
           blue: '#1e3a8a', // Deep Blue
           teal: '#14b8a6', // Vibrant Teal
         }
+      },
+      fontFamily: {
+        sans: ['Outfit', 'sans-serif'],
       }
     },
   },

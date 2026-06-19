@@ -26,17 +26,20 @@
 
 /* Service Detail Mobile Spacing & Uniformity Overrides */
 @media (max-width: 640px) {
-  /* Scale prose paragraphs and general content copy on mobile to be slightly larger */
-  .prose p {
-    font-size: 0.95rem !important; /* text-[15.2px] */
-    line-height: 1.5rem !important;
+  /* Scale down prose paragraphs and general content copy on mobile to be uniform with Team/Services */
+  .prose p,
+  .prose ul,
+  .prose ol,
+  .prose li {
+    font-size: 0.875rem !important; /* text-sm (14px) */
+    line-height: 1.375rem !important;
   }
 
-  /* Scale prose general subheadings on mobile */
+  /* Scale down prose general subheadings on mobile */
   .prose h3 {
-    font-size: 1.25rem !important; /* text-xl (20px) */
-    margin-top: 1.75rem !important;
-    margin-bottom: 1rem !important;
+    font-size: 1.125rem !important; /* text-lg (18px) */
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
   }
 
   /* Dynamic HTML accordion containers */
@@ -53,13 +56,13 @@
   /* Accordion group titles on mobile */
   .prose .group h3,
   .prose .group h4 {
-    font-size: 1.125rem !important; /* text-lg (18px) */
-    line-height: 1.5rem !important;
+    font-size: 1rem !important; /* text-base (16px) */
+    line-height: 1.375rem !important;
   }
 
   .prose .group h3 .w-1\.5,
   .prose .group h4 .w-1\.5 {
-    height: 1.25rem !important; /* h-5 */
+    height: 1.125rem !important; /* h-4.5 */
   }
 
   /* List spacing */
@@ -79,13 +82,58 @@
 
   /* Align inner text within list items */
   .prose .group li strong {
-    font-size: 0.95rem !important; /* text-[15.2px] */
-    margin-bottom: 0.25rem !important; /* mb-1 */
+    font-size: 0.875rem !important; /* text-sm (14px) */
+    margin-bottom: 0.125rem !important; /* mb-0.5 */
   }
 
   .prose .group li span {
-    font-size: 0.875rem !important; /* text-sm (14px) */
-    line-height: 1.45 !important;
+    font-size: 0.8125rem !important; /* text-[13px] */
+    line-height: 1.35 !important;
   }
 }
+
+/* Service Detail Desktop Typography Overrides (Standard and uniform with Team/Services) */
+@media (min-width: 641px) {
+  /* Body paragraphs and general lists */
+  .prose p,
+  .prose ul,
+  .prose ol,
+  .prose li {
+    font-size: 1rem !important; /* 16px */
+    line-height: 1.625rem !important;
+  }
+
+  /* Accordion headers */
+  .prose .group h3,
+  .prose .group h4 {
+    font-size: 1.125rem !important; /* 18px */
+    line-height: 1.625rem !important;
+  }
+
+  /* List item titles */
+  .prose .group li strong {
+    font-size: 1rem !important; /* 16px */
+  }
+
+  /* List item descriptions */
+  .prose .group li span {
+    font-size: 0.9375rem !important; /* 15px */
+    line-height: 1.5rem !important;
+  }
+}
+
+/* Global styling overrides */
+.prose .group li span {
+  text-align: justify;
+}
+
+/* High-Performance Smooth Theme Transitions */
+.theme-transition,
+.theme-transition * {
+  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1), 
+              background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), 
+              border-color 300ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+
 

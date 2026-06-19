@@ -251,7 +251,7 @@ const ServiceDetail = () => {
               Expert Service
             </div>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-3 tracking-tight leading-tight">{selectedService.title}</h1>
-            <p className="text-slate-200 font-medium text-sm sm:text-base max-w-3xl leading-relaxed">{selectedService.description}</p>
+            <p className="text-slate-200 font-medium text-sm sm:text-base max-w-3xl leading-relaxed text-justify">{selectedService.description}</p>
           </motion.div>
         </div>
       </div>
@@ -278,7 +278,7 @@ const ServiceDetail = () => {
                 prose-headings:font-bold prose-headings:text-slate-900 dark:prose-headings:text-white
                 prose-h2:text-2xl sm:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b-2 prose-h2:border-brand-teal/20
                 prose-h3:text-xl sm:text-2xl prose-h3:text-slate-900 dark:prose-h3:text-white prose-h3:mt-10 prose-h3:mb-4
-                prose-p:text-slate-600 dark:prose-p:text-slate-300 prose-p:leading-relaxed prose-p:mb-6
+                prose-p:text-slate-600 dark:prose-p:text-slate-300 prose-p:leading-relaxed prose-p:mb-6 prose-p:text-justify
                 prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-bold
                 mb-10 sm:mb-16 bg-white dark:bg-slate-900/50 p-5 sm:p-8 md:p-12 rounded-3xl sm:rounded-[2.5rem] shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-100 dark:border-slate-800"
               dangerouslySetInnerHTML={{ __html: selectedService.detailedDescription }}

@@ -3,9 +3,9 @@ import { ArrowRight, ShieldCheck, TrendingUp, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const stats = [
-  { label: 'Years Experience', value: '3+', icon: TrendingUp },
+  { label: 'ITRs Filed', value: '1500+', icon: TrendingUp },
   { label: 'Businesses Served', value: '500+', icon: Users },
-  { label: 'Entity Formed', value: '1K+', icon: ShieldCheck }
+  { label: 'Entity Formed', value: '300+', icon: ShieldCheck }
 ];
 
 const Hero = () => {
@@ -13,12 +13,12 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-slate-50 dark:bg-slate-900 z-0">
-        <motion.div 
+        <motion.div
           animate={{ y: [0, -20, 0], x: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }}
           className="absolute top-0 right-0 -mr-40 -mt-40 w-96 h-96 rounded-full bg-brand-blue/5 dark:bg-brand-blue/20 blur-3xl"
         ></motion.div>
-        <motion.div 
+        <motion.div
           animate={{ y: [0, 20, 0], x: [0, -10, 0] }}
           transition={{ repeat: Infinity, duration: 10, ease: "easeInOut", delay: 1 }}
           className="absolute bottom-0 left-0 -ml-40 -mb-40 w-96 h-96 rounded-full bg-brand-teal/10 dark:bg-brand-teal/20 blur-3xl"
@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
 
       <div className="section-container relative z-10 text-center">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -35,8 +35,8 @@ const Hero = () => {
           <ShieldCheck className="w-4 h-4 text-brand-teal" />
           <span className="text-sm font-medium text-slate-700 dark:text-slate-300">Your Trusted Compliance Partner</span>
         </motion.div>
-        
-        <motion.h1 
+
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
@@ -47,8 +47,8 @@ const Hero = () => {
             Making Your Journey Easy
           </span>
         </motion.h1>
-        
-        <motion.p 
+
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -57,7 +57,7 @@ const Hero = () => {
           Kayadu Consulting LLP provides reliable business registration, tax compliance, GST, legal certification, and digital signature services tailored to support startups, businesses, and growing enterprises with accuracy and efficiency. We combine traditional trust with modern technological efficiency to drive your business forward.
         </motion.p>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -81,15 +81,15 @@ const Hero = () => {
         </motion.div>
 
         {/* Quick Stats Grid */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.5 }}
           className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mt-20 max-w-4xl mx-auto"
         >
           {stats.map((stat, i) => {
-             const Icon = stat.icon || ShieldCheck;
-             return (
+            const Icon = stat.icon || ShieldCheck;
+            return (
               <div key={i} className="group flex flex-col items-center p-4 bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm rounded-2xl border border-slate-100 dark:border-slate-700/50 hover:border-brand-teal/50 dark:hover:border-brand-teal/50 transition-all duration-500 hover:shadow-[0_20px_40px_-15px_rgba(20,184,166,0.15)] dark:hover:shadow-[0_20px_40px_-15px_rgba(20,184,166,0.3)] hover:-translate-y-2 relative overflow-hidden z-10">
                 <div className="absolute -right-10 -top-10 w-24 h-24 bg-brand-teal/10 dark:bg-brand-teal/20 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <Icon className="relative z-10 w-8 h-8 text-brand-teal mb-3 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-6 drop-shadow-sm group-hover:drop-shadow-[0_0_8px_rgba(20,184,166,0.5)]" />

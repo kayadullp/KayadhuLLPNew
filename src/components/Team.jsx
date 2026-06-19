@@ -8,20 +8,29 @@ const Team = () => {
   const team = [
     {
       name: 'Divya Gandhi',
-      role: 'Associate Partner – Compliance & Business Advisory',
-      bio: 'Divya Gandhi has been associated with the firm since its inception. She is a CA Finalist, MBA (Finance), Diploma Holder in Taxation Laws, and a Commerce Graduate with extensive experience in business compliance, accounting, and advisory services.',
+      role: 'Associate Partner',
+      bio: [
+        'Divya Gandhi has been associated with the firm since its inception. She is a CA Finalist, MBA (Finance), Diploma Holder in Taxation Laws, and a Commerce Graduate with extensive experience in business compliance, accounting, and advisory services.',
+        'She plays a pivotal role in managing client engagements across accounting, GST compliance, ROC compliances, business registrations, and incorporation of entities. Her expertise extends to regulatory filings, bookkeeping supervision, financial documentation and tax compliance management.'
+      ],
       image: divyaImg,
     },
     {
       name: 'CA Unnat Chandak',
       role: 'Associate Chartered Accountant',
-      bio: 'CA Unnat Chandak bring expertise in accounting, audit, and indirect tax matters. He plays a key role in managing GST litigation matters, financial reporting, and compliance engagements. He oversees the finalization of books of accounts, preparation of financial statements, and audit-related assignments, ensuring adherence to applicable regulatory and professional standards. With a practical approach and strong technical knowledge, he assists clients in navigating complex tax and compliance challenges while supporting sound financial management and business growth.',
+      bio: [
+        'CA Unnat Chandak brings expertise in accounting, audit, and indirect tax matters. He plays a key role in managing GST litigation matters, financial reporting, and compliance engagements.',
+        'He oversees the finalization of books of accounts, preparation of financial statements, and audit-related assignments, ensuring adherence to applicable regulatory and professional standards. With a practical approach and strong technical knowledge, he assists clients in navigating complex tax and compliance challenges while supporting sound financial management and business growth.'
+      ],
       image: unnatImg,
     },
     {
       name: 'Onkar Charkha',
-      role: 'Associate – Audit & Assurance',
-      bio: 'Onkar Charkha is associated with Kayadu Consulting LLP in the Audit & Assurance practice. As a Chartered Accountancy Finalist, he is actively involved in statutory audits, financial reporting, and compliance assignments.',
+      role: 'Manager – Audit & Assurance',
+      bio: [
+        'Onkar Charkha is associated with Kayadu Consulting LLP in the Audit & Assurance practice. As a Chartered Accountancy Finalist, he is actively involved in statutory audits, financial reporting, and compliance assignments.',
+        'He assists clients in strengthening their financial processes through effective audit procedures, regulatory compliance, and financial analysis. With a strong focus on accuracy and professional standards, Onkar contributes to delivering reliable and practical solutions that support informed business decisions.'
+      ],
       image: onkarImg,
     },
 
@@ -80,9 +89,11 @@ const Team = () => {
                 <div>
                   <h4 className="text-2xl font-bold text-slate-900 dark:text-white">{member.name}</h4>
                   <p className="text-brand-teal font-medium text-base mt-1 mb-4">{member.role}</p>
-                  <p className="text-slate-600 dark:text-slate-400 text-sm md:text-base leading-relaxed text-justify">
-                    {member.bio}
-                  </p>
+                  <div className="text-slate-600 dark:text-slate-400 text-sm md:text-base leading-relaxed text-justify space-y-3">
+                    {member.bio.map((para, idx) => (
+                      <p key={idx} className="indent-6">{para}</p>
+                    ))}
+                  </div>
                 </div>
               </div>
             </motion.div>
