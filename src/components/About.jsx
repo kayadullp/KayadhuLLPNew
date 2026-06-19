@@ -119,7 +119,7 @@ const About = () => {
                     className="space-y-4 overflow-hidden"
                   >
                     <p>
-                      Driven by an insatiable appetite for learning and professional growth, Mr. Devendra K Biyani is currently pursuing the esteemed Chartered Accountant (CA) qualification. This pursuit allows them to stay at the forefront of evolving tax laws, regulations, and best practices, enabling them to provide clients with cutting-edge solutions and strategies.
+                        Driven by an insatiable appetite for learning and professional growth, Mr. Devendra K Biyani continuously enhances his expertise in taxation, finance, and regulatory compliance. By staying abreast of evolving tax laws, business regulations, and industry best practices, he is committed to delivering innovative, practical, and effective solutions that help clients navigate complex financial and compliance challenges with confidence.
                     </p>
                     <p>
                       At KAYADU CONSULTING LLP, Mr. Devendra K Biyani's expertise serves as a cornerstone of the firm's success. They possess a deep understanding of the complexities associated with compliance and taxation, and their ability to navigate through these intricacies sets them apart. Whether it is assisting businesses in optimizing their tax structures, ensuring regulatory compliance, or providing sound financial advice, Mr. Devendra K Biyani's passion and proficiency make them a trusted advisor and partner for clients across various industries.

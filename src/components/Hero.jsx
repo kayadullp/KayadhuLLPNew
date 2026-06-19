@@ -1,6 +1,12 @@
 import React from 'react';
-import { ArrowRight, ShieldCheck, TrendingUp, Users, Landmark } from 'lucide-react';
+import { ArrowRight, ShieldCheck, TrendingUp, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
+
+const stats = [
+  { label: 'Years Experience', value: '3+', icon: TrendingUp },
+  { label: 'Businesses Served', value: '500+', icon: Users },
+  { label: 'Entity Formed', value: '1K+', icon: ShieldCheck }
+];
 
 const Hero = () => {
   return (
@@ -59,12 +65,14 @@ const Hero = () => {
         >
           <a
             href="#contact"
+            role="button"
             className="group px-8 py-4 bg-brand-teal text-white rounded-full font-semibold hover:bg-brand-teal/90 transition-all flex items-center shadow-lg shadow-brand-teal/20"
           >
             Get a Consultation
             <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
+            role="button"
             href="#services"
             className="px-8 py-4 bg-white dark:bg-slate-800 text-slate-900 dark:text-white rounded-full font-semibold border border-slate-200 dark:border-slate-700 hover:border-brand-teal dark:hover:border-brand-teal transition-all shadow-sm"
           >
@@ -79,11 +87,7 @@ const Hero = () => {
           transition={{ duration: 0.7, delay: 0.5 }}
           className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mt-20 max-w-4xl mx-auto"
         >
-          {[
-            { label: 'Years Experience', value: '3+', icon: TrendingUp },
-            { label: 'Businesses Served', value: '500+', icon: Users },
-            { label: 'Entity Formed', value: '1K+', icon: ShieldCheck }
-          ].map((stat, i) => {
+          {stats.map((stat, i) => {
              const Icon = stat.icon || ShieldCheck;
              return (
               <div key={i} className="group flex flex-col items-center p-4 bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm rounded-2xl border border-slate-100 dark:border-slate-700/50 hover:border-brand-teal/50 dark:hover:border-brand-teal/50 transition-all duration-500 hover:shadow-[0_20px_40px_-15px_rgba(20,184,166,0.15)] dark:hover:shadow-[0_20px_40px_-15px_rgba(20,184,166,0.3)] hover:-translate-y-2 relative overflow-hidden z-10">

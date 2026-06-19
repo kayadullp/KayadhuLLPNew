@@ -1,7 +1,6 @@
 import React, { Suspense, lazy, useEffect, useRef } from 'react';
 import Navbar from './components/Navbar';
 import ScrollProgress from './components/ScrollProgress';
-import MouseFollower from './components/MouseFollower';
 import { Toaster } from 'react-hot-toast';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
@@ -57,7 +56,6 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 font-sans selection:bg-brand-teal/30">
       <ScrollProgress />
-      <MouseFollower />
       <Toaster position="bottom-left" />
       <Navbar />
       

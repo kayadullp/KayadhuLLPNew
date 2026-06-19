@@ -26,14 +26,11 @@ export const servicesData = [
     icon: Building2,
     image: companyRegistrationImg,
     detailedDescription: `
-<p>At our company, we offer comprehensive services for the registration of companies and limited liability partnerships (LLPs). We understand that establishing a business entity requires careful consideration of legal requirements, compliance obligations, and procedural formalities. Our dedicated team of experts is here to guide you through the entire registration process, ensuring a smooth and efficient experience.</p>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
-  <h3 class="!mt-0 text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-    <div class="w-1.5 h-8 bg-brand-teal rounded-full"></div>
-    Our services include:
-  </h3>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">At our company, we offer comprehensive services for the registration of companies and limited liability partnerships (LLPs). We understand that establishing a business entity requires careful consideration of legal requirements, compliance obligations, and procedural formalities. Our dedicated team of experts is here to guide you through the entire registration process, ensuring a smooth and efficient experience.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our services include:</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+  <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3"><div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>Registration Services:</h4>
   <ul class="space-y-6">
-
   <li class="flex gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 hover:bg-white dark:hover:bg-slate-800 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group-hover:border-brand-teal/20 dark:group-hover:border-brand-teal/20">
   <div class="flex-shrink-0 mt-1.5">
     <div class="w-2.5 h-2.5 bg-brand-teal rounded-full"></div>
@@ -109,12 +106,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>By engaging our registration services, you can focus on developing your business while leaving the legal complexities and administrative tasks to our experienced professionals. We strive to make the registration process efficient, compliant, and hassle-free, allowing you to embark on your entrepreneurial journey with confidence.</p>
-
-<h2>Company/LLP Compliances</h2>
-<p>Our company offers comprehensive Company/LLP compliance services to help businesses stay compliant with the legal and regulatory requirements governing their operations. We understand the complexities involved in adhering to company law and LLP regulations and provide expert guidance to ensure that your company or LLP remains compliant at all times.</p>
-<h3>Our Company/LLP compliance services include:</h3>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Annual Compliance:
@@ -142,7 +134,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Statutory Filings and Registrations:
@@ -179,7 +171,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Board and Shareholder Meetings:
@@ -207,7 +199,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Compliance Advisory Services:
@@ -235,7 +227,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Legal and Regulatory Support:
@@ -263,7 +255,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>By availing our Company/LLP compliance services, you can focus on your core business activities while having the peace of mind that your company or LLP remains compliant with applicable laws and regulations. Our dedicated team of professionals ensures that all necessary compliances are met, enabling you to operate smoothly within the legal framework.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">By availing our Company/LLP compliance services, you can focus on your core business activities while having the peace of mind that your company or LLP remains compliant with applicable laws and regulations. Our dedicated team of professionals ensures that all necessary compliances are met, enabling you to operate smoothly within the legal framework.</p>
 `,
     features: [
       'Entity Selection and Name Reservation',
@@ -287,9 +279,9 @@ export const servicesData = [
     icon: ReceiptText,
     image: itrTdsImg,
     detailedDescription: `
-<p>Our company offers comprehensive services for income tax return filing and Tax Deducted at Source (TDS) compliance. We understand the complexities and evolving regulations of the income tax system, and our dedicated team of tax professionals is here to ensure accurate and timely filing of your tax returns and compliance with TDS obligations.</p>
-<h3>Our services include:</h3>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Our company offers comprehensive services for income tax return filing and Tax Deducted at Source (TDS) compliance. We understand the complexities and evolving regulations of the income tax system, and our dedicated team of tax professionals is here to ensure accurate and timely filing of your tax returns and compliance with TDS obligations.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our services include:</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Income Tax Return Filing:
@@ -326,7 +318,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     TDS Compliance:
@@ -363,7 +355,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Compliance Monitoring and Advisory:
@@ -391,7 +383,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Representation and Assistance:
@@ -419,7 +411,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>By engaging our income tax return filing and TDS compliance services, you can ensure accurate and timely compliance with tax obligations while minimising the risk of penalties or legal issues. Our team stays updated with the latest tax regulations, allowing you to focus on your core business activities with peace of mind.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">By engaging our income tax return filing and TDS compliance services, you can ensure accurate and timely compliance with tax obligations while minimising the risk of penalties or legal issues. Our team stays updated with the latest tax regulations, allowing you to focus on your core business activities with peace of mind.</p>
 `,
     features: [
       'Assessment and Data Gathering',
@@ -443,9 +435,9 @@ export const servicesData = [
     icon: BadgePercent,
     image: gstImg,
     detailedDescription: `
-<p>Our company offers comprehensive services for Goods and Services Tax (GST) registration and compliance. We understand the complexities and evolving regulations of the GST system, and our dedicated team of tax professionals is here to ensure accurate and seamless GST registration and compliance for your business.</p>
-<h3>Our services include:</h3>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Our company offers comprehensive services for Goods and Services Tax (GST) registration and compliance. We understand the complexities and evolving regulations of the GST system, and our dedicated team of tax professionals is here to ensure accurate and seamless GST registration and compliance for your business.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our services include:</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     GST Registration:
@@ -482,7 +474,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     GST Compliance:
@@ -537,7 +529,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     GST Amendments and Cancellations:
@@ -565,7 +557,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>By engaging our GST registration and compliance services, you can ensure accurate and seamless compliance with GST obligations, minimise the risk of penalties or legal issues, and focus on your core business activities. Our team stays updated with the latest GST regulations, ensuring that your business remains GST-compliant at all times.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">By engaging our GST registration and compliance services, you can ensure accurate and seamless compliance with GST obligations, minimise the risk of penalties or legal issues, and focus on your core business activities. Our team stays updated with the latest GST regulations, ensuring that your business remains GST-compliant at all times.</p>
 `,
     features: [
       'Assessment and Consultation',
@@ -589,8 +581,9 @@ export const servicesData = [
     icon: Stamp,
     image: certificationsImg,
     detailedDescription: `
-<p>Our company provides a comprehensive range of services related to Shop Act Registration, Real Estate Regulatory Authority (RERA) Compliance, MSME (Micro, Small, and Medium Enterprises) Registration, Udyam Registration, and Trademark-related services. We understand the legal and regulatory requirements associated with these areas and offer expert assistance to ensure compliance and protection of your business interests.</p>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Our company provides a comprehensive range of services related to Shop Act Registration, Real Estate Regulatory Authority (RERA) Compliance, MSME (Micro, Small, and Medium Enterprises) Registration, Udyam Registration, and Trademark-related services. We understand the legal and regulatory requirements associated with these areas and offer expert assistance to ensure compliance and protection of your business interests.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our services include:</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Shop Act Registration:
@@ -627,7 +620,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     RERA Compliance:
@@ -664,7 +657,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     MSME and Udyam Registration:
@@ -701,7 +694,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Trademark-related Services:
@@ -738,7 +731,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>By engaging our services for Shop Act registration, RERA compliance, MSME or Udyam registration, and trademark-related matters, you can navigate through the legal requirements, ensure compliance, and protect your business interests. Our experienced professionals provide personalised assistance and keep you updated with any changes in the relevant laws and regulations.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">By engaging our services for Shop Act registration, RERA compliance, MSME or Udyam registration, and trademark-related matters, you can navigate through the legal requirements, ensure compliance, and protect your business interests. Our experienced professionals provide personalised assistance and keep you updated with any changes in the relevant laws and regulations.</p>
 `,
     features: [
       'Shop Act Registration & Compliance',
@@ -762,9 +755,9 @@ export const servicesData = [
     icon: Users,
     image: partnershipImg,
     detailedDescription: `
-<p>Our company offers comprehensive services for partnership firm registration, assisting aspiring entrepreneurs and businesses in establishing a legally recognized partnership structure. We understand the importance of a well-structured partnership and the legal requirements involved. Our dedicated team of professionals is here to guide you through the partnership firm registration process, ensuring a seamless and compliant experience.</p>
-<h3>Our services include:</h3>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Our company offers comprehensive services for partnership firm registration, assisting aspiring entrepreneurs and businesses in establishing a legally recognized partnership structure. We understand the importance of a well-structured partnership and the legal requirements involved. Our dedicated team of professionals is here to guide you through the partnership firm registration process, ensuring a seamless and compliant experience.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our services include:</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Consultation and Guidance
@@ -792,7 +785,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Documentation and Registration:
@@ -829,7 +822,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Compliance Assistance:
@@ -866,7 +859,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Post-Registration Support:
@@ -894,7 +887,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>By engaging our partnership firm registration services, you can establish a legally recognized partnership structure, ensure compliance with applicable laws and regulations, and establish a solid foundation for your business endeavors. Our team strives to make the registration process efficient, transparent, and tailored to your specific requirements.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">By engaging our partnership firm registration services, you can establish a legally recognized partnership structure, ensure compliance with applicable laws and regulations, and establish a solid foundation for your business endeavors. Our team strives to make the registration process efficient, transparent, and tailored to your specific requirements.</p>
 `,
     features: [
       'Consultation and Partnership Structure Guidance',
@@ -918,14 +911,11 @@ export const servicesData = [
     icon: Fingerprint,
     image: dscImg,
     detailedDescription: `
-<p>As a leading provider of Digital Signature Certificates (DSC), we offer secure and reliable solutions for individuals and businesses in need of legally recognized digital signatures. Our aim is to streamline your online transactions and document signing processes by providing robust authentication and data integrity.</p>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
-  <h3 class="!mt-0 text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-    <div class="w-1.5 h-8 bg-brand-teal rounded-full"></div>
-    Our DSC services include:
-  </h3>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">As a leading provider of Digital Signature Certificates (DSC), we offer secure and reliable solutions for individuals and businesses in need of legally recognized digital signatures. Our aim is to streamline your online transactions and document signing processes by providing robust authentication and data integrity.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our DSC services include:</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+  <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3"><div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>Certificate Types and Application:</h4>
   <ul class="space-y-6">
-
   <li class="flex gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 hover:bg-white dark:hover:bg-slate-800 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group-hover:border-brand-teal/20 dark:group-hover:border-brand-teal/20">
   <div class="flex-shrink-0 mt-1.5">
     <div class="w-2.5 h-2.5 bg-brand-teal rounded-full"></div>
@@ -983,7 +973,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>By choosing our DSC services, you can enhance the security and credibility of your online transactions and document signing. Our commitment to customer satisfaction, coupled with our expertise in digital signatures, ensures that you receive a reliable and trusted solution for your digital authentication needs.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">By choosing our DSC services, you can enhance the security and credibility of your online transactions and document signing. Our commitment to customer satisfaction, coupled with our expertise in digital signatures, ensures that you receive a reliable and trusted solution for your digital authentication needs.</p>
 `,
     features: [
       'Wide Range of Certificates (Class 2, Class 3)',
@@ -1007,9 +997,9 @@ export const servicesData = [
     icon: Globe,
     image: iecImg,
     detailedDescription: `
-<p>Our company offers comprehensive Import Export Code (IEC) registration services, catering to individuals and businesses engaged in import-export activities. Obtaining an IEC is a mandatory requirement for conducting international trade, and our services are designed to simplify the registration process and ensure compliance with applicable laws and regulations.</p>
-<h3>Our IEC registration services include:</h3>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Our company offers comprehensive Import Export Code (IEC) registration services, catering to individuals and businesses engaged in import-export activities. Obtaining an IEC is a mandatory requirement for conducting international trade, and our services are designed to simplify the registration process and ensure compliance with applicable laws and regulations.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our IEC registration services include:</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Consultation and Guidance:
@@ -1037,7 +1027,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Documentation and Application:
@@ -1074,7 +1064,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Post-Registration Support:
@@ -1102,7 +1092,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Renewal and Closure:
@@ -1130,7 +1120,7 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>By availing our IEC registration services, you can navigate the complexities of international trade regulations and establish a strong foundation for your import-export business. Our experienced professionals ensure a smooth and efficient registration process, enabling you to expand your business globally while complying with the necessary legal requirements.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">By availing our IEC registration services, you can navigate the complexities of international trade regulations and establish a strong foundation for your import-export business. Our experienced professionals ensure a smooth and efficient registration process, enabling you to expand your business globally while complying with the necessary legal requirements.</p>
 `,
     features: [
       'Consultation on Import-Export Requirements',
@@ -1154,14 +1144,11 @@ export const servicesData = [
     icon: FileX,
     image: closureImg,
     detailedDescription: `
-<p>Our company specialises in providing comprehensive services for the closure of companies and limited liability partnerships (LLPs). We understand that closing a business entity can be a complex and time-consuming process, requiring adherence to legal requirements and regulatory obligations. Our experienced team is here to guide you through every step of the closure process, ensuring a smooth and hassle-free experience.</p>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
-  <h3 class="!mt-0 text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-    <div class="w-1.5 h-8 bg-brand-teal rounded-full"></div>
-    Our services include:
-  </h3>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Our company specialises in providing comprehensive services for the closure of companies and limited liability partnerships (LLPs). We understand that closing a business entity can be a complex and time-consuming process, requiring adherence to legal requirements and regulatory obligations. Our experienced team is here to guide you through every step of the closure process, ensuring a smooth and hassle-free experience.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our services include:</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+  <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3"><div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>Closure Process:</h4>
   <ul class="space-y-6">
-
   <li class="flex gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 hover:bg-white dark:hover:bg-slate-800 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group-hover:border-brand-teal/20 dark:group-hover:border-brand-teal/20">
   <div class="flex-shrink-0 mt-1.5">
     <div class="w-2.5 h-2.5 bg-brand-teal rounded-full"></div>
@@ -1237,8 +1224,8 @@ export const servicesData = [
 
   </ul>
 </div>
-<p>Our aim is to make the company/LLP closure process as smooth, efficient, and legally compliant as possible. By engaging our services, you can focus on other important aspects of your business or personal ventures, knowing that your closure process is in capable hands.</p>
-<p>Please note that the specific services provided may vary depending on the jurisdiction and the unique requirements of your company/LLP closure. We recommend reaching out to us for a personalised consultation to discuss your specific needs.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Our aim is to make the company/LLP closure process as smooth, efficient, and legally compliant as possible. By engaging our services, you can focus on other important aspects of your business or personal ventures, knowing that your closure process is in capable hands.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Please note that the specific services provided may vary depending on the jurisdiction and the unique requirements of your company/LLP closure. We recommend reaching out to us for a personalised consultation to discuss your specific needs.</p>
 `,
     features: [
       'Consultation and Closure Strategy',
@@ -1262,11 +1249,11 @@ export const servicesData = [
     icon: Globe,
     image: certificationsImg,
     detailedDescription: `
-<p>A Tax Residency Certificate (TRC) is an official document issued by the tax authorities of a country certifying that an individual or business qualifies as a tax resident under that country's tax laws. The certificate is often required to claim benefits under Double Taxation Avoidance Agreements (DTAA), avoid double taxation, establish tax residency status, and comply with international tax regulations.</p>
-<p>At Kayadu Consulting LLP, we provide end-to-end assistance in obtaining Tax Residency Certificates from Dubai (UAE), Singapore, and Qatar. Our experts guide you through eligibility assessment, document preparation, application filing, and coordination with the relevant authorities to ensure a smooth and timely process.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">A Tax Residency Certificate (TRC) is an official document issued by the tax authorities of a country certifying that an individual or business qualifies as a tax resident under that country's tax laws. The certificate is often required to claim benefits under Double Taxation Avoidance Agreements (DTAA), avoid double taxation, establish tax residency status, and comply with international tax regulations.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">At Kayadu Consulting LLP, we provide end-to-end assistance in obtaining Tax Residency Certificates from Dubai (UAE), Singapore, and Qatar. Our experts guide you through eligibility assessment, document preparation, application filing, and coordination with the relevant authorities to ensure a smooth and timely process.</p>
 
-<h3>Why is a Tax Residency Certificate Important?</h3>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Why is a Tax Residency Certificate Important?</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Key Benefits:
@@ -1323,13 +1310,13 @@ export const servicesData = [
   </ul>
 </div>
 
-<h3>Our TRC Services Include</h3>
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Our TRC Services Include</h3>
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Dubai (UAE) Tax Residency Certificate
   </h4>
-  <p class="text-slate-600 dark:text-slate-300 mb-6">The UAE Tax Residency Certificate is issued by the Federal Tax Authority (FTA) and is commonly used by individuals and businesses seeking DTAA benefits and tax optimization opportunities.</p>
+  <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">The UAE Tax Residency Certificate is issued by the Federal Tax Authority (FTA) and is commonly used by individuals and businesses seeking DTAA benefits and tax optimization opportunities.</p>
   <ul class="space-y-6">
     <li class="flex gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 hover:bg-white dark:hover:bg-slate-800 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group-hover:border-brand-teal/20 dark:group-hover:border-brand-teal/20">
       <div class="flex-shrink-0 mt-1.5">
@@ -1358,12 +1345,12 @@ export const servicesData = [
   </ul>
 </div>
 
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Singapore Tax Residency Certificate
   </h4>
-  <p class="text-slate-600 dark:text-slate-300 mb-6">The Certificate of Residence (COR) issued by the Inland Revenue Authority of Singapore (IRAS) certifies that a company or individual is a Singapore tax resident for treaty purposes.</p>
+  <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">The Certificate of Residence (COR) issued by the Inland Revenue Authority of Singapore (IRAS) certifies that a company or individual is a Singapore tax resident for treaty purposes.</p>
   <ul class="space-y-6">
     <li class="flex gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 hover:bg-white dark:hover:bg-slate-800 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group-hover:border-brand-teal/20 dark:group-hover:border-brand-teal/20">
       <div class="flex-shrink-0 mt-1.5">
@@ -1392,12 +1379,12 @@ export const servicesData = [
   </ul>
 </div>
 
-<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] mb-10 mt-6 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
+<div class="group bg-slate-50/50 dark:bg-slate-800/40 px-6 py-5 md:px-8 md:py-6 rounded-[2rem] my-8 border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-2xl hover:border-brand-teal/30 dark:hover:border-brand-teal/30 transition-all duration-500 hover:-translate-y-1">
   <h4 class="!mt-0 text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
     <div class="w-1.5 h-6 bg-brand-teal rounded-full"></div>
     Qatar Tax Residency Certificate
   </h4>
-  <p class="text-slate-600 dark:text-slate-300 mb-6">The Qatar Tax Residency Certificate is issued by the General Tax Authority (GTA) and is essential for businesses and individuals seeking treaty benefits and international tax compliance.</p>
+  <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">The Qatar Tax Residency Certificate is issued by the General Tax Authority (GTA) and is essential for businesses and individuals seeking treaty benefits and international tax compliance.</p>
   <ul class="space-y-6">
     <li class="flex gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 hover:bg-white dark:hover:bg-slate-800 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group-hover:border-brand-teal/20 dark:group-hover:border-brand-teal/20">
       <div class="flex-shrink-0 mt-1.5">
@@ -1426,11 +1413,11 @@ export const servicesData = [
   </ul>
 </div>
 
-<h3>Eligibility Criteria & Documents Required</h3>
-<p>Eligibility requirements vary by country. For individuals, requirements generally include valid residency status, physical presence, proof of address, and financial ties. For companies, requirements include valid registration, active operations, local management, and regulatory compliance.</p>
-<p>Commonly required documents include passport/visa copies, proof of address, bank statements, and audited financial statements/trade licenses for companies.</p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Eligibility Criteria & Documents Required</h3>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Eligibility requirements vary by country. For individuals, requirements generally include valid residency status, physical presence, proof of address, and financial ties. For companies, requirements include valid registration, active operations, local management, and regulatory compliance.</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">Commonly required documents include passport/visa copies, proof of address, bank statements, and audited financial statements/trade licenses for companies.</p>
 
-<h3>Why Choose Kayadu Consulting LLP?</h3>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mt-10 mb-8">Why Choose Kayadu Consulting LLP?</h3>
 <ul class="list-disc pl-5 mb-6 text-slate-600 dark:text-slate-300 space-y-2">
   <li>Experienced international tax and compliance professionals</li>
   <li>End-to-end application management across UAE, Singapore, and Qatar</li>

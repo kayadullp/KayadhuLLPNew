@@ -12,17 +12,80 @@
   .dark body {
     @apply bg-slate-900 text-slate-200;
   }
-  
-  /* Hide default cursor on devices with a mouse to favor custom cursor */
-  @media (pointer: fine) {
-    body, a, button, input, textarea, select, .cursor-pointer {
-      cursor: none !important;
-    }
-  }
 }
 
 @layer components {
   .section-container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16;
   }
+
+  .service-hero-height {
+    @apply min-h-[350px] lg:min-h-[400px] flex flex-col justify-center;
+  }
 }
+
+/* Service Detail Mobile Spacing & Uniformity Overrides */
+@media (max-width: 640px) {
+  /* Scale prose paragraphs and general content copy on mobile to be slightly larger */
+  .prose p {
+    font-size: 0.95rem !important; /* text-[15.2px] */
+    line-height: 1.5rem !important;
+  }
+
+  /* Scale prose general subheadings on mobile */
+  .prose h3 {
+    font-size: 1.25rem !important; /* text-xl (20px) */
+    margin-top: 1.75rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Dynamic HTML accordion containers */
+  .prose .group {
+    padding-left: 1.25rem !important; /* px-5 */
+    padding-right: 1.25rem !important; /* px-5 */
+    padding-top: 1.25rem !important; /* py-5 */
+    padding-bottom: 1.25rem !important; /* py-5 */
+    border-radius: 1.5rem !important; /* rounded-3xl */
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  /* Accordion group titles on mobile */
+  .prose .group h3,
+  .prose .group h4 {
+    font-size: 1.125rem !important; /* text-lg (18px) */
+    line-height: 1.5rem !important;
+  }
+
+  .prose .group h3 .w-1.5,
+  .prose .group h4 .w-1.5 {
+    height: 1.25rem !important; /* h-5 */
+  }
+
+  /* List spacing */
+  .prose .group ul.space-y-6 {
+    margin-top: 1rem !important;
+  }
+  .prose .group ul.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 0.75rem !important; /* space-y-3 */
+  }
+
+  /* Dynamic HTML accordion list items */
+  .prose .group li {
+    padding: 0.875rem !important; /* p-3.5 */
+    gap: 0.75rem !important; /* gap-3 */
+    border-radius: 0.875rem !important; /* rounded-xl */
+  }
+
+  /* Align inner text within list items */
+  .prose .group li strong {
+    font-size: 0.95rem !important; /* text-[15.2px] */
+    margin-bottom: 0.25rem !important; /* mb-1 */
+  }
+
+  .prose .group li span {
+    font-size: 0.875rem !important; /* text-sm (14px) */
+    line-height: 1.45 !important;
+  }
+}
+
