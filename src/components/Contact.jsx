@@ -1,11 +1,12 @@
 import React, { useState, useRef } from 'react';
-import { Mail, Phone, MapPin, Send, Loader2 } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { Mail, Phone, MapPin, Send, Loader2, CheckCircle2 } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import toast from 'react-hot-toast';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
   const form = useRef();
 
   const handleSubmit = async (e) => {
@@ -20,13 +21,7 @@ const Contact = () => {
         '8kMACGh4NEwJWfzHk'
       );
       
-      toast.success('Message sent successfully! We will get back to you soon.', {
-        style: {
-          borderRadius: '10px',
-          background: '#333',
-          color: '#fff',
-        },
-      });
+      setShowSuccessModal(true);
       e.target.reset();
     } catch (error) {
       console.error('EmailJS Error:', error);
@@ -227,6 +222,45 @@ const Contact = () => {
         </div>
 
       </div>
+
+      <AnimatePresence>
+        {showSuccessModal && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm"
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ type: "spring", stiffness: 300, damping: 25 }}
+              className="bg-white dark:bg-slate-800 border border-slate-200/50 dark:border-slate-700/50 p-8 sm:p-10 rounded-[2rem] max-w-md w-full shadow-2xl flex flex-col items-center text-center relative overflow-hidden"
+            >
+              {/* Background decorative glow */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-48 bg-brand-teal/10 dark:bg-brand-teal/20 blur-3xl rounded-full z-0"></div>
+
+              {/* Teal Pulse Circle Success Icon */}
+              <div className="relative z-10 w-16 h-16 rounded-full bg-brand-teal/10 dark:bg-brand-teal/20 flex items-center justify-center mb-6 animate-pulse">
+                <CheckCircle2 className="w-8 h-8 text-brand-teal" />
+              </div>
+
+              <h3 className="relative z-10 text-2xl font-bold text-slate-900 dark:text-white mb-3">Message Sent!</h3>
+              <p className="relative z-10 text-sm sm:text-base text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
+                Thank you for reaching out to **Kayadu Consulting LLP**. We have received your query and one of our experts will get back to you shortly.
+              </p>
+
+              <button
+                onClick={() => setShowSuccessModal(false)}
+                className="relative z-10 w-full py-3.5 bg-brand-teal hover:bg-brand-teal/90 text-white font-semibold rounded-full shadow-lg shadow-brand-teal/15 hover:shadow-brand-teal/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300"
+              >
+                Great!
+              </button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 };
