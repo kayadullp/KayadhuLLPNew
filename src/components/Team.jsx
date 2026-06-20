@@ -91,7 +91,7 @@ const Team = () => {
                   <p className="text-brand-teal font-medium text-base mt-1 mb-4">{member.role}</p>
                   <div className="text-slate-600 dark:text-slate-400 text-sm md:text-base leading-relaxed text-justify space-y-3">
                     {member.bio.map((para, idx) => (
-                      <p key={idx} className="indent-6">{para}</p>
+                      <p key={idx}>{para}</p>
                     ))}
                   </div>
                 </div>
